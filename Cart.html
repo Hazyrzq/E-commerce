@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="stylecart.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <p class="logo">
+            <img src="images/logo.png" alt="">
+        </p>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <p id="cartCount">0</p>
+        </div>
+    </div>
+    <div class="container">
+        <div id="root" class="product-list">
+            <!-- Product list will be dynamically populated here -->
+        </div>
+        <div class="sidebar">
+            <div class="head">
+                <p>My Cart</p>
+            </div>
+            <div id="cartItem" class="cart-items">
+                <!-- Cart items will be dynamically populated here -->
+            </div>
+            <div class="foot">
+                <h3>Total</h3>
+                <h2 id="total">Rp 0.00</h2>
+                <button id="checkoutBtn" disabled>Checkout</button>
+            </div>
+        </div>
+    </div>
+    <!-- Checkout Modal -->
+    <div id="checkoutModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="checkoutForm" class="checkout-form">
+                <h2>Checkout</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone" required>
+                <button type="button" id="confirmBtn">Confirm Order</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

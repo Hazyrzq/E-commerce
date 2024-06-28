@@ -1,0 +1,134 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#product-management {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#product-list {
+    margin-bottom: 20px;
+}
+
+#product-list div {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#product-list span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#add-product-form {
+    margin-bottom: 20px;
+}
+
+#add-product-form input {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#add-product-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-product-form button:hover {
+    background-color: #45a049;
+}
+
+#add-product-form button:active {
+    background-color: #3e8e41;
+}
+
+#report-list {
+    margin-top: 20px;
+}
+
+#report-list div {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#report-list h4 {
+    margin-bottom: 10px;
+}
+
+#report-list p {
+    margin: 5px 0;
+}
+
+#report-list h5 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#category-management, #product-management, #order-management {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input, form select, form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+form button:active {
+    background-color: #3e8e41;
+}
+
+#product-list div, #category-list div, #report-list div {
+    margin-bottom: 20px;
+}
+

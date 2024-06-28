@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- coding by helpme_coder -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login form</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="login-box">
+      <div class="login-header">
+        <span>Login</span>
+      </div>
+      <div class="input_box">
+        <input type="text" id="username" class="input-field" required>
+        <label for="username" class="label">Username</label>
+        <i class="bx bx-user icon"></i>
+      </div>
+      <div class="input_box">
+        <input type="password" id="password" class="input-field" required>
+        <label for="password" class="label">Password</label>
+        <i class="bx bx-lock-alt icon"></i>
+      </div>
+      <p id="error-message"></p>
+      <div class="input_box">
+        <input type="submit" id="admin-login-btn" class="input-submit" value="Login Sebagai Admin">
+      </div>
+      <div class="input_box">
+        <input type="submit" id="user-login-btn" class="input-submit" value="Masuk Sebagai User">
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js">
+</script>
+</html>
